@@ -1,7 +1,3 @@
-<?php
-/* Template Name: BLOGPage */
-?>
-
 <?php get_header(); ?>
 			<div class="container">
 			<?php custom_breadcrumb(); ?>
@@ -33,19 +29,20 @@
 				<!--news-->
 
 				<div class="pagenav">
-					<ul>
-						<li>
-							<span><a href="">1</a></span>
-						</li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li><a href="#">4</a></li>
-						<li><a href="#">5</a></li>
-						<li><a href="#">&gt;</a></li>
-					</ul>
-				</div>
+<?php
+if ( $the_query->max_num_pages > 1 ) {
+	echo paginate_links(
+		array(
+			'base'    => get_pagenum_link( 1 ) . '%_%',
+			'format'  => 'page/%#%/',
+			'current' => max( 1, $paged ),
+			'total'   => $the_query->max_num_pages,
+		)
+	);
+}
+?>
+</div><!-- pagenav -->
 			</div>
 			<!-- container -->
-<?php get_footer(); ?>
-
+			<?php wp_reset_postdata(); ?>
 <?php get_footer(); ?>

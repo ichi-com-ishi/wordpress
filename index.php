@@ -30,7 +30,7 @@
 
 				<div class="next">
 					<p>
-						<a href="/news/"> &gt;&gt;続きをもっと見る</a>
+						<a href="<?php echo home_url(); ?>/news/"> &gt;&gt;続きをもっと見る</a>
 					</p>
 				</div>
 
@@ -95,7 +95,7 @@
 							</a>
 						</div>
 						<div class="flex-child holdings_box">
-							<a href="<?php echo home_url(); ?>/guide/pro/>">
+							<a href="<?php echo home_url(); ?>/guide/pro/">
 								<img src="<?php echo get_template_directory_uri(); ?>/images/top/holdings-pro.jpg" alt="" />
 								<div class="holdings_box_text">
 									<h3 class="">TOOL&リフォーム</h3>

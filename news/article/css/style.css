@@ -8,7 +8,55 @@ rose CSS
 	margin: 0 -15px 0 -15px;
 }
 
-#article div.left h2 {
+#article img {
+	height: auto;
+	margin-bottom: 10px;
+	max-width: 100%;
+	width: initial;
+}
+
+#article a {
+	color: #a20007;
+	text-decoration: underline;
+}
+
+#article a:hover {
+	text-decoration: none;
+}
+
+#article h2 {
+	color: #5a5a5a;
+	font-family: 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HG明朝E, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	font-size: 4.8rem;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	line-height: 2;
+	margin-bottom: 10px;
+}
+
+#article h3 {
+	color: #5a5a5a;
+	font-family: 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HG明朝E, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	font-size: 4rem;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	line-height: 2;
+	margin-bottom: 10px;
+}
+
+#article p {
+	color: #5a5a5a;
+	font-size: 2.4rem;
+	letter-spacing: 0.05em;
+	line-height: 2;
+	margin-bottom: 10px;
+}
+
+/* #article div.left h2 {
 	color: #5a5a5a;
 	font-family: 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HG明朝E, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 	font-size: 4rem;
@@ -26,7 +74,7 @@ rose CSS
 	font-family: 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HG明朝E, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 	font-size: 4rem;
 	margin-bottom: 50px;
-}
+} */
 
 #article .article_text {
 	border-bottom: 1px solid #5a5a5a;

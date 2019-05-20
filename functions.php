@@ -1,26 +1,65 @@
 <?php
 
+/**********************************************
+ * phpファイルを読み込むショートコード
+ * 投稿内でネットワークホームurlを取得[home_url]
+ * 【出力カスタマイズ】固定ページで抜粋の機能を有効化
+ * 概要（抜粋）の文字数調整
+ * 概要（抜粋）の末の設定
+ * アイキャッチ画像
+ * タイトルの出力
+ * パンくずリスト
+ ***********************************************/
+
 /*
-【出力カスタマイズ】固定ページで抜粋の機能を有効化 */
+* phpファイルを読み込むショートコード
+*/
+function loop_main( $atts ) {
+	ob_start();
+	get_template_part( 'parts-template/loop-main' ); // parts-template/loop-main.phpを読みこみ
+	return ob_get_clean();
+}
+add_shortcode( 'loop', 'loop_main' );
+
+/*
+* 投稿内でネットワークホームurlを取得[home_url]
+*/
+function homeUrl() {
+  return network_home_url();
+}
+add_shortcode('home_url', 'homeUrl');
+
+/*
+*【出力カスタマイズ】固定ページで抜粋の機能を有効化
+*/
 add_post_type_support( 'page', 'excerpt' );
 
-// 概要（抜粋）の文字数調整
+/*
+* 概要（抜粋）の文字数調整
+*/
 function new_excerpt_mblength( $length ) {
 	return 29; // 抜粋する文字数を29文字に設定(高さ100になるように)
 }
 add_filter( 'excerpt_mblength', 'new_excerpt_mblength' );
 
-// 概要（抜粋）の末の設定
+
+/*
+* 概要（抜粋）の末の設定
+*/
 function new_excerpt_more( $more ) {
 	return '…';
 }
 add_filter( 'excerpt_more', 'new_excerpt_more' );
 
-// アイキャッチ画像
+/*
+* アイキャッチ画像
+*/
 add_theme_support( 'post-thumbnails' );
 set_post_thumbnail_size( 350, 250, true );
 
-// タイトルの出力
+/*
+* タイトルの出力
+*/
 add_theme_support( 'title-tag' );
 function change_title_tag( $title ) {
 	if ( is_category() ) { /* カテゴリーアーカイブの場合 */
@@ -34,22 +73,9 @@ function change_title_tag( $title ) {
 }
 add_filter( 'pre_get_document_title', 'change_title_tag' );
 
-/* ビジュアルエディタがタグを勝手に削除するのを阻止
----------------------------------------------------------- */
-// function custom_tiny_mce_before_init( $init_array ) {
-//   global $allowedposttags;
-
-//   $init_array['valid_elements'] = '*[*]'; //すべてのタグを許可(削除されないように)
-//   $init_array['extended_valid_elements'] = '*[*]'; //すべてのタグを許可(削除されないように)
-//   $init_array['valid_children'] = '+a[' . implode( '|', array_keys( $allowedposttags ) ) . ']'; //aタグ内にすべてのタグを入れられるように
-//   $init_array['indent'] = true; //インデントを有効に
-//   $init_array['wpautop'] = false; //テキストやインライン要素を自動的にpタグで囲む機能を無効に
-
-//   return $init_array;
-// }
-// add_filter( 'tiny_mce_before_init', 'custom_tiny_mce_before_init' );
-
-// パンくずリスト
+/*
+* パンくずリスト
+*/
 if ( ! function_exists( 'custom_breadcrumb' ) ) {
 	function custom_breadcrumb( $wp_obj = null ) {
 
@@ -106,7 +132,7 @@ if ( ! function_exists( 'custom_breadcrumb' ) ) {
 					 '</li>';
 
 			} else {
-				$the_tax = 'category';  // 通常の投稿の場合、カテゴリーを表示
+				$the_tax = '';  // 通常の投稿の場合、カテゴリーを表示（表示されないように）
 			}
 
 			// タクソノミーが紐づいていれば表示

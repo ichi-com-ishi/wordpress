@@ -38,6 +38,10 @@ img {
 	opacity: 0.8;
 }
 
+.banner:hover {
+	opacity: 0.8;
+}
+
 .holdings_box:hover {
 	opacity: 0.8;
 }
@@ -113,6 +117,9 @@ img {
 	position: absolute;
 	right: 0;
 	transform: translate(0%, 50%);
+
+	/* transform: translate(50%, 50%);
+	width: 50%; */
 }
 
 #guide_article .keyvisual {
@@ -719,6 +726,11 @@ img {
 #footer dl dt a,
 #footer dl dd a {
 	color: #fff;
+}
+
+#footer dl dt a:hover,
+#footer dl dd a:hover {
+	color: #ba373d;
 }
 
 #footer small {

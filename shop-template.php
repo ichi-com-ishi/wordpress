@@ -29,34 +29,8 @@ Template Name: 各店舗ページテンプレート
 				<section id="tenpoNews">
 					<h3>News</h3>
 					<div class="flex-col3">
-<?php
-$paged     = (int) get_query_var( 'paged' );
-$args      = array(
-	'posts_per_page' => 3,
-	'paged'          => $paged,
-	'orderby'        => 'post_date',
-	'order'          => 'DESC',
-	'post_type'      => 'post',
-	'post_status'    => 'publish',
-);
-$the_query = new WP_Query( $args );
-if ( $the_query->have_posts() ) :
-	while ( $the_query->have_posts() ) :
-		$the_query->the_post();
-		?>
-	<div id="post-<?php the_ID(); ?>" <?php post_class( 'item flex-child linkbox' ); ?>>
-	<div class="item-image trimming">
-		<?php the_post_thumbnail( 'thumbnail', array( 'class' => 'photo' ) ); ?>
-	</div>
-<div class="item-text bold">
-		<?php the_excerpt(); ?>
-<a href="<?php the_permalink(); ?>"></a>
-</div>
-</div>
-		<?php
-		endwhile;
-	endif;
-?>
+
+<?php get_template_part( 'loop', 'main' ); ?>
 
 					</div>
 
@@ -70,7 +44,7 @@ if ( $the_query->have_posts() ) :
 						<div class="bnr_box">
 							<a href="#">
 								<div class="bgRed">
-									<img src="../../images/common/bnr_flyer.jpg" alt="" />
+									<img src="<?php echo get_template_directory_uri(); ?>/images/common/bnr_flyer.jpg" alt="" />
 								</div>
 								<h4 class="bnr_box_heading">FLYER</h4>
 								<p class="bnr_box_text">最新チラシ</p>
@@ -79,7 +53,7 @@ if ( $the_query->have_posts() ) :
 						<div class="bnr_box">
 							<a href="#">
 								<div class="bgBlue">
-									<img src="../../images/common/bnr_recruit.jpg" alt="" />
+									<img src="<?php echo get_template_directory_uri(); ?>/images/common/bnr_recruit.jpg" alt="" />
 								</div>
 								<h4 class="bnr_box_heading">RECRUIT</h4>
 								<p class="bnr_box_text">採用情報</p>

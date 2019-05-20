@@ -31,26 +31,14 @@ NEWS CSS
 	color: #5a5a5a;
 	font-size: 3rem;
 	margin-bottom: 100px;
+	text-align: center;
 }
 
-.pagenav ul {
-	align-items: center;
-	display: flex;
-	justify-content: center;
-}
 
-.pagenav ul li {
-	margin-right: 1em;
-}
-
-.pagenav ul li span a {
+.pagenav span {
 	color: #a20007;
 }
 
-.pagenav ul li:last-child {
-	margin-right: 0;
-}
-
-.pagenav ul li a {
+.pagenav a {
 	color: #5a5a5a;
 }
