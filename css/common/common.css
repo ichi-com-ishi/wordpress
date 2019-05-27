@@ -95,13 +95,20 @@ img {
 
 .heading3::before {
 	color: #5a5a5a;
-	content: "\02228";
+	content: "\02227";
 	display: block;
 	position: absolute;
 	right: 3%;
 	top: 20%;
+	transition: all 0.1s;
+}
 
-	/* transform: rotate(90deg); */
+.heading3.active::before {
+	transform: rotate(180deg);
+}
+
+.acdn-but {
+	cursor: pointer;
 }
 
 /* guide_article共通
