@@ -46,6 +46,52 @@ img {
 	opacity: 0.8;
 }
 
+/* ワードプレス装飾
+==================== */
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+blockquote {
+	background: #efefef;
+	box-sizing: border-box;
+	color: #555;
+	font-style: italic;
+	padding: 30px 15px 8px 15px;
+	position: relative;
+}
+
+blockquote::before {
+	color: #cfcfcf;
+	content: "\f10d";
+	display: inline-block;
+	font-family: "Font Awesome 5 Free";
+	font-size: 28px;
+	font-weight: 900;
+	left: 15px;
+	line-height: 1;
+	position: absolute;
+	top: 13px;
+}
+
+blockquote p {
+	line-height: 1.7;
+	margin: 10px 0;
+	padding: 0;
+}
+
+blockquote cite {
+	color: #888;
+	display: block;
+	font-size: 0.9em;
+	text-align: right;
+}
+
 /* コモン
 ==================== */
 
