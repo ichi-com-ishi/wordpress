@@ -329,10 +329,15 @@
 		font-size: 2.6rem;
 	}
 
+	#shop .flex-col2 .flex-child dl dd ul {
+		justify-content: center;
+	}
+
 	#shop .flex-col2 .flex-child dl dd ul li {
 		font-size: 3.1555vw;
 		height: 100%;
-		line-height: 2;
+		line-height: 2.5;
+		width: 100%;
 	}
 
 	#shop .flex-col2 .flex-child {
