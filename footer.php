@@ -10,6 +10,7 @@
 							<dd><a href="<?php echo home_url(); ?>/shop/#ishikawa">石川県</a></dd>
 							<dd><a href="<?php echo home_url(); ?>/shop/#fukui">福井県</a></dd>
 							<dd><a href="<?php echo home_url(); ?>/shop/#nagano">長野県</a></dd>
+							<dd><a href="<?php echo home_url(); ?>/shop/#saitama">埼玉県</a></dd>
 							<dd><a href="<?php echo home_url(); ?>/shop/#kyoto">京都府</a></dd>
 							<dd><a href="<?php echo home_url(); ?>/shop/#osaka">大阪府</a></dd>
 							<dd><a href="<?php echo home_url(); ?>/shop/#hyogo">兵庫県</a></dd>
