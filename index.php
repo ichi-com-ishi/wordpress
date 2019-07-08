@@ -87,7 +87,7 @@
 					<div class="flex-col3">
 						<div class="flex-child holdings_box">
 							<a href="http://nicopet.jp/">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/top/holdings-pet.jpg" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/images/top/holdings-pet.jpg?20190708" alt="" />
 								<div class="holdings_box_text">
 									<h3>ペット専門店</h3>
 									<p>ニコペット</p>
@@ -114,7 +114,7 @@
 						</div>
 						<div class="flex-child holdings_box">
 							<a href="http://arc-oasis.com/">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/top/holdings-oasis.jpg" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/images/top/holdings-oasis.jpg?20190708" alt="" />
 								<div class="holdings_box_text">
 									<h3 class="">アート&クラフト専門店</h3>
 									<p>アークオアシス</p>
@@ -132,7 +132,7 @@
 						</div>
 						<div class="flex-child holdings_box">
 							<a href="http://www.arcland.co.jp/">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/top/holdings-sakamoto.jpg" alt="" />
+								<img src="<?php echo get_template_directory_uri(); ?>/images/top/holdings-sakamoto.jpg?20190708" alt="" />
 								<div class="holdings_box_text">
 									<p>アークランドサカモト</p>
 								</div>

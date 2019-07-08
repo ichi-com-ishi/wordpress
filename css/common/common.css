@@ -288,12 +288,12 @@ blockquote cite {
 	padding-top: 0;
 }
 
-#list div ul li:nth-child(6),
+#list div ul li:nth-child(5),
+#list div ul li:nth-child(10),
 #list div ul li:nth-child(11) {
 	border-right: 1px solid #5a5a5a;
 }
 
-#list div ul li:nth-child(6),
 #list div ul li:nth-child(7),
 #list div ul li:nth-child(8),
 #list div ul li:nth-child(9),
