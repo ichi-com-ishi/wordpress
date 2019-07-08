@@ -67,7 +67,7 @@
                                 </li>
                                 <li>
                                     <a href="<?php echo home_url(); ?>/news/">
-                                        お知らせ
+                                        新着情報
                                     </a>
                                 </li>
                                 <li>
@@ -116,7 +116,7 @@
                     <nav>
                         <ul class="flex">
                             <li><a href="<?php echo home_url(); ?>">ホーム</a></li>
-                            <li><a href="<?php echo home_url(); ?>/news/">お知らせ</a></li>
+                            <li><a href="<?php echo home_url(); ?>/news/">新着情報</a></li>
                             <li><a href="<?php echo home_url(); ?>/flyer/">最新チラシ</a></li>
                             <li><a href="<?php echo home_url(); ?>/shop/">店舗情報</a></li>
                             <li><a href="<?php echo home_url(); ?>/guide/">売場案内</a></li>

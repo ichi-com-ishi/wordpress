@@ -36,7 +36,7 @@
 
 				<section id="contens">
 					<div class="center">
-						<h2 class="heading_h2">CONTENS</h2>
+						<h2 class="heading_h2">CONTENTS</h2>
 					</div>
 					<div class="flex-col4">
 						<div class="flex-child contens_box">
