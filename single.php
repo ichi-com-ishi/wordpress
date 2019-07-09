@@ -37,6 +37,10 @@
 							<dd><a href="<?php echo home_url(); ?>/nanyo/">南陽店</a></dd>
 							<dd><a href="<?php echo home_url(); ?>/yonezawa/">米沢店</a></dd>
 						</dl>
+						<dl>
+							<dt><a href="<?php echo network_home_url(); ?>shop/#saitama">埼玉県</a></dt>
+							<dd><a href="<?php echo network_home_url(); ?>kukishobu/">久喜菖蒲店</a></dd>
+						</dl>
 					</div>
 					<div class="flex-child">
 						<dl>
