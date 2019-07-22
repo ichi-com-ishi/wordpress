@@ -1,8 +1,7 @@
 # node_modulesを除外
-node_modules
+*node_modules
 # licalhistoryのhistoryファイルを除外
-.history/*
+*.history
 # 「.DS_Store」や「._.DS_Store」を除外
 *.DS_Store
 # vdcodeの設定ファイルの除外
-.vscode/*

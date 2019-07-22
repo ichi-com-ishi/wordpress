@@ -1,11 +1,14 @@
 {
-	"plugins": ["stylelint-order"],
-	"extends": ["stylelint-config-wordpress"],
-	"rules": {
-		"declaration-block-trailing-semicolon": "always",
-		"declaration-colon-newline-after": null,
-		"value-list-comma-newline-after": "never-multi-line",
-		"order/order": ["custom-properties", "declarations"],
-		"order/properties-alphabetical-order": true
-	}
+  "plugins": ["stylelint-order"],
+  "extends": ["stylelint-config-wordpress"],
+  "rules": {
+    "indentation": 2,
+    "string-quotes": "single",
+    "number-leading-zero": "never",
+    "declaration-block-trailing-semicolon": "always",
+    "declaration-colon-newline-after": null,
+    "value-list-comma-newline-after": "never-multi-line",
+    "order/order": ["custom-properties", "declarations"],
+    "order/properties-alphabetical-order": true
+  }
 }
