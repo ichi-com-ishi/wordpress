@@ -50,12 +50,3 @@ TOP CSS
   white-space: nowrap;
   z-index: 998;
 }
-
-.contens_box {
-  pointer-events: fill;
-}
-
-.contens_box_heading,
-.contens_box_text {
-  pointer-events: none;
-}

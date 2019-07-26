@@ -31,7 +31,10 @@
     echo '?' . filemtime(get_stylesheet_directory() . '/news/article/css/style.css');
     ?>">
     <?php else: ?>
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css" />
+    <link rel="stylesheet" href="<?php
+    echo get_stylesheet_directory_uri() . '/css/style.css';
+    echo '?' . filemtime(get_stylesheet_directory() . '/css/style.css');
+    ?>">
     <?php endif; ?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common/reset.css" />
     <link rel="stylesheet" href="<?php

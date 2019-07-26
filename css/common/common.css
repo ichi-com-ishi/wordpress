@@ -4,107 +4,107 @@
 ==================== */
 
 html {
-	font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-	background-color: #fff;
-	color: #333;
-	font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
-	font-size: 1.6rem;
+  background-color: #fff;
+  color: #333;
+  font-family: '游ゴシック Medium', 'Yu Gothic Medium', '游ゴシック体', 'YuGothic', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', 'Meiryo', 'verdana', sans-serif;
+  font-size: 1.6rem;
 }
 
 *,
 *::before,
 *::after {
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 img {
-	height: auto;
-	width: 100%;
+  height: auto;
+  width: 100%;
 }
 
 .none {
-	visibility: hidden;
+  visibility: hidden;
 }
 
 .item:hover {
-	opacity: 0.8;
+  opacity: .8;
 }
 
 .banner:hover {
-	opacity: 0.8;
+  opacity: .8;
 }
 
 .holdings_box:hover {
-	opacity: 0.8;
+  opacity: .8;
 }
 
 /* ワードプレス装飾
 ==================== */
 
 strong {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 em {
-	font-style: italic;
+  font-style: italic;
 }
 
 blockquote {
-	background: #efefef;
-	box-sizing: border-box;
-	color: #555;
-	font-style: italic;
-	padding: 30px 15px 8px 15px;
-	position: relative;
+  background: #efefef;
+  box-sizing: border-box;
+  color: #555;
+  font-style: italic;
+  padding: 30px 15px 8px 15px;
+  position: relative;
 }
 
 blockquote::before {
-	color: #cfcfcf;
-	content: "\f10d";
-	display: inline-block;
-	font-family: "Font Awesome 5 Free";
-	font-size: 28px;
-	font-weight: 900;
-	left: 15px;
-	line-height: 1;
-	position: absolute;
-	top: 13px;
+  color: #cfcfcf;
+  content: '\f10d';
+  display: inline-block;
+  font-family: 'Font Awesome 5 Free';
+  font-size: 28px;
+  font-weight: 900;
+  left: 15px;
+  line-height: 1;
+  position: absolute;
+  top: 13px;
 }
 
 blockquote p {
-	line-height: 1.7;
-	margin: 10px 0;
-	padding: 0;
+  line-height: 1.7;
+  margin: 10px 0;
+  padding: 0;
 }
 
 blockquote cite {
-	color: #888;
-	display: block;
-	font-size: 0.9em;
-	text-align: right;
+  color: #888;
+  display: block;
+  font-size: .9em;
+  text-align: right;
 }
 
 /* コモン
 ==================== */
 
 .heading {
-	color: #555;
-	display: inline-block;
-	font-family: 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HG明朝E, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-	font-size: 4rem;
-	letter-spacing: 0.1em;
-	margin-bottom: 60px;
-	padding-bottom: 30px;
-	position: relative;
-	text-indent: 0.1em;
+  color: #555;
+  display: inline-block;
+  font-family: 游明朝, YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', HG明朝E, 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
+  font-size: 4rem;
+  letter-spacing: .1em;
+  margin-bottom: 60px;
+  padding-bottom: 30px;
+  position: relative;
+  text-indent: .1em;
 }
 
 /* top 各店舗共通
@@ -114,13 +114,13 @@ blockquote cite {
 -------------------- */
 
 .next {
-	margin-bottom: 120px;
-	text-align: center;
+  margin-bottom: 120px;
+  text-align: center;
 }
 
 .next p a {
-	color: #000;
-	font-size: 2rem;
+  color: #000;
+  font-size: 2rem;
 }
 
 /* flyer shop共通
@@ -130,31 +130,31 @@ blockquote cite {
 -------------------- */
 
 .heading3 {
-	border-bottom: 1px solid #5a5a5a;
-	color: #5a5a5a;
-	font-family: 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HG明朝E, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-	font-size: 3.6rem;
-	margin-bottom: 30px;
-	padding-bottom: 20px;
-	position: relative;
+  border-bottom: 1px solid #5a5a5a;
+  color: #5a5a5a;
+  font-family: 游明朝, YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', HG明朝E, 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
+  font-size: 3.6rem;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  position: relative;
 }
 
 .heading3::before {
-	color: #5a5a5a;
-	content: "\02227";
-	display: block;
-	position: absolute;
-	right: 3%;
-	top: 20%;
-	transition: all 0.1s;
+  color: #5a5a5a;
+  content: '\02227';
+  display: block;
+  position: absolute;
+  right: 3%;
+  top: 20%;
+  transition: all .1s;
 }
 
 .heading3.active::before {
-	transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .acdn-but {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 /* guide_article共通
@@ -162,136 +162,136 @@ blockquote cite {
 
 #guide_article .heading::before,
 #guide_article .heading::after {
-	bottom: 0;
-	content: "GUIDE";
-	font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
-	font-size: 65%;
-	left: 0;
-	position: absolute;
-	right: 0;
-	transform: translate(0%, 50%);
+  bottom: 0;
+  content: 'GUIDE';
+  font-family: '游ゴシック Medium', 'Yu Gothic Medium', '游ゴシック体', 'YuGothic', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', 'Meiryo', 'verdana', sans-serif;
+  font-size: 65%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: translate(0%, 50%);
 
-	/* transform: translate(50%, 50%);
+  /* transform: translate(50%, 50%);
 	width: 50%; */
 }
 
 #guide_article .keyvisual {
-	margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 
 #guide_article .shizai_text {
-	margin-bottom: 62.5px;
+  margin-bottom: 62.5px;
 }
 
 #guide_article .shizai_text h3 {
-	color: #5a5a5a;
-	font-size: 3rem;
-	line-height: 1.5;
-	margin-bottom: 51.5px;
+  color: #5a5a5a;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 51.5px;
 }
 
 #guide_article .shizai_text p {
-	color: #5a5a5a;
-	font-size: 2.4rem;
-	line-height: 2;
+  color: #5a5a5a;
+  font-size: 2.4rem;
+  line-height: 2;
 }
 
 #guide_article .shizai_rei {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 200px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
 }
 
 #guide_article .shizai_rei h4 {
-	align-items: center;
-	background: #5a5a5a;
-	color: #fff;
-	display: flex;
-	font-size: 3rem;
-	justify-content: center;
-	justify-content: center;
-	max-width: 250px;
-	padding: 0 1.6667em;
-	width: 100%;
+  align-items: center;
+  background: #5a5a5a;
+  color: #fff;
+  display: flex;
+  font-size: 3rem;
+  justify-content: center;
+  justify-content: center;
+  max-width: 250px;
+  padding: 0 1.6667em;
+  width: 100%;
 }
 
 #guide_article .shizai_rei p {
-	align-items: center;
-	border: 1px solid #5a5a5a;
-	display: flex;
-	font-size: 2.4rem;
-	justify-content: center;
-	line-height: 2;
-	padding: 1.0417em 2.0833em;
-	width: 100%;
+  align-items: center;
+  border: 1px solid #5a5a5a;
+  display: flex;
+  font-size: 2.4rem;
+  justify-content: center;
+  line-height: 2;
+  padding: 1.0417em 2.0833em;
+  width: 100%;
 }
 
 #guide_article .shizai_table {
-	margin-bottom: 130px;
+  margin-bottom: 130px;
 }
 
 #guide_article .shizai_table table,
 #guide_article .shizai_table td,
 #guide_article .shizai_table th {
-	border: 1px solid #5a5a5a;
-	border-collapse: collapse;
+  border: 1px solid #5a5a5a;
+  border-collapse: collapse;
 }
 
 #guide_article .shizai_table table {
-	text-align: center;
-	width: 100%;
+  text-align: center;
+  width: 100%;
 }
 
 #guide_article .shizai_table table tbody tr td {
-	font-size: 3rem;
-	line-height: 2.65;
-	width: calc(100% / 3);
+  font-size: 3rem;
+  line-height: 2.65;
+  width: calc(100% / 3);
 }
 
 #guide_article .shizai_table table tbody tr td a {
-	color: #5a5a5a;
-	transition: all 0.2s;
+  color: #5a5a5a;
+  transition: all .2s;
 }
 
 #guide_article .shizai_table table tbody tr td a:hover {
-	color: #a20007;
+  color: #a20007;
 }
 
 #list {
-	margin-bottom: 80px;
-	text-align: center;
+  margin-bottom: 80px;
+  text-align: center;
 }
 
 #list .flex {
-	flex-wrap: wrap;
-	justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #list div ul {
-	font-size: 3rem;
+  font-size: 3rem;
 }
 
 #list div ul li {
-	border-left: 1px solid #5a5a5a;
-	border-top: 1px solid #5a5a5a;
-	height: 70px;
-	line-height: 70px;
-	transition: 0.5s;
-	width: 190px;
+  border-left: 1px solid #5a5a5a;
+  border-top: 1px solid #5a5a5a;
+  height: 70px;
+  line-height: 70px;
+  transition: .5s;
+  width: 190px;
 }
 
 #list div ul li.empty_item {
-	height: 0;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding-bottom: 0;
-	padding-top: 0;
+  height: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 #list div ul li:nth-child(5),
 #list div ul li:nth-child(10),
 #list div ul li:nth-child(11) {
-	border-right: 1px solid #5a5a5a;
+  border-right: 1px solid #5a5a5a;
 }
 
 #list div ul li:nth-child(7),
@@ -299,135 +299,135 @@ blockquote cite {
 #list div ul li:nth-child(9),
 #list div ul li:nth-child(10),
 #list div ul li:nth-child(11) {
-	border-bottom: 1px solid #5a5a5a;
+  border-bottom: 1px solid #5a5a5a;
 }
 
 #list div ul li:nth-child(n + 12) {
-	border: none;
+  border: none;
 }
 
 #list div ul li a {
-	color: #5a5a5a;
-	display: block;
-	height: 100%;
-	transition: all 0.2s;
-	width: 100%;
+  color: #5a5a5a;
+  display: block;
+  height: 100%;
+  transition: all .2s;
+  width: 100%;
 }
 
 #list div ul li a:hover {
-	color: #a20007;
+  color: #a20007;
 }
 
 .flex-col2 .flex-child dl dd ul li {
-	font-size: 1.333em;
-	height: 50px;
-	line-height: 50px;
-	text-align: center;
-	width: 35.55%;
+  font-size: 1.333em;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 35.55%;
 }
 
 .flex-col2 .flex-child dl dd ul li:first-child {
-	border: 1px solid #333;
-	font-size: 1.333em;
-	height: 50px;
-	line-height: 50px;
-	text-align: center;
-	width: 35.55%;
+  border: 1px solid #333;
+  font-size: 1.333em;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 35.55%;
 }
 
 .flex-col2 .flex-child dl dd ul li:first-child {
 }
 
 .flex-col2 .flex-child dl dd ul li:first-child a {
-	color: #5a5a5a;
-	display: block;
-	height: 100%;
-	transition: all 0.3s;
-	width: 100%;
+  color: #5a5a5a;
+  display: block;
+  height: 100%;
+  transition: all .3s;
+  width: 100%;
 }
 
 .flex-col2 .flex-child dl dd ul li:first-child a:hover {
-	background: #5a5a5a;
-	border: none;
-	color: #fff;
+  background: #5a5a5a;
+  border: none;
+  color: #fff;
 }
 
 .flex-col2 .flex-child dl dd ul li + li {
-	background: #a20007;
-	border: none;
+  background: #a20007;
+  border: none;
 }
 
 .flex-col2 .flex-child dl dd ul li + li a {
-	color: #fff;
-	display: block;
-	height: 100%;
-	transition: all 0.3s;
-	width: 100%;
+  color: #fff;
+  display: block;
+  height: 100%;
+  transition: all .3s;
+  width: 100%;
 }
 
 .flex-col2 .flex-child dl dd ul li + li a:hover {
-	background: #fff;
-	border: 1px solid #a20007;
-	color: #a20007;
+  background: #fff;
+  border: 1px solid #a20007;
+  color: #a20007;
 }
 
 .flex-col2 .flex-child dl dd ul li:first-child {
-	margin-right: 5.3%;
+  margin-right: 5.3%;
 }
 
 /* article
 ==================== */
 
 .common_mg1 {
-	margin-top: 6%;
+  margin-top: 6%;
 }
 
 .linkbox {
-	position: relative;
+  position: relative;
 }
 
 .linkbox a {
-	display: block;
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 .bgDark {
-	background: #000;
+  background: #000;
 }
 
 .bgBlue {
-	background: #00f;
+  background: #00f;
 }
 
 .bgRed {
-	background: #f00;
+  background: #f00;
 }
 
 .bgDark img,
 .bgBlue img,
 .bgRed img {
-	display: block;
-	opacity: 0.6;
+  display: block;
+  opacity: .6;
 }
 
 .contens_box div {
-	background: #000;
-	overflow: hidden;
+  background: #000;
+  overflow: hidden;
 }
 
 .contens_box img {
-	display: block;
-	transition-duration: 0.3s;
+  display: block;
+  transition-duration: .3s;
 }
 
 .contens_box img:hover {
-	opacity: 0.3;
-	transform: scale(1.1);
-	transition-duration: 0.3s;
+  opacity: .3;
+  transform: scale(1.1);
+  transition-duration: .3s;
 }
 
 /* .imgWrap {
@@ -447,257 +447,263 @@ blockquote cite {
 } */
 
 .bold {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 600;
 }
 
 .center {
-	text-align: center;
+  text-align: center;
 }
 
 .left {
-	text-align: leftp;
+  text-align: leftp;
 }
 
 .trimming {
 
-	/* background: #f0f0f0; */
-	overflow: hidden;
-	padding-top: 65%;
-	position: relative;
+  /* background: #f0f0f0; */
+  overflow: hidden;
+  padding-top: 65%;
+  position: relative;
 }
 
 .article_trimming {
-	overflow: hidden;
-	padding-top: 100%;
-	position: relative;
+  overflow: hidden;
+  padding-top: 100%;
+  position: relative;
 }
 
 .photo {
-	left: 50%;
-	position: absolute;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	width: 100%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
 }
 
 .wrapper {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 .flex {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .flex_wp {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-[class^="flex-col"] {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+[class^='flex-col'] {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .flex-child {
-	margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .flex-col2 .flex-child {
-	width: calc((100% - 10px) / 2);
+  width: calc((100% - 10px) / 2);
 }
 
 .flex-col3::after,
 .flex-col3 .flex-child {
-	width: calc((100% - 50px) / 3);
+  width: calc((100% - 50px) / 3);
 }
 
 .flex-col4::before,
 .flex-col4::after,
 .flex-col4 .flex-child {
-	width: calc((100% - 30px) / 4);
+  width: calc((100% - 30px) / 4);
 }
 
 .flex-col3::after,
 .flex-col4::before,
 .flex-col4::after {
-	content: "";
+  content: '';
 }
 
 .flex-col4::before {
-	order: 1;
+  order: 1;
 }
 
 .flex-with-border {
-	border: 1px solid #ddd;
-	border-radius: 4px;
-	padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
 }
 
 .flex-child p:last-child {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .item-image img {
-	height: auto;
-	vertical-align: bottom;
-	width: 100%;
+  height: auto;
+  vertical-align: bottom;
+  width: 100%;
 }
 
 .item-text {
-	background: #f0f0f0;
-	font-size: 2rem;
-	line-height: 1.5;
-	min-height: 100px;
-	padding: 1em;
+  background: #f0f0f0;
+  font-size: 2rem;
+  line-height: 1.5;
+  min-height: 100px;
+  padding: 1em;
 }
 
 .contens_box_heading {
-	border: 1px solid #fff;
-	color: #f6f6f6;
-	font-size: 2.8rem;
-	left: 50%;
-	letter-spacing: 0.05em;
-	padding: 0.7em 0;
-	position: absolute;
-	text-align: center;
-	top: 50%;
-	transform: translate(-50%, -100%);
-	width: 85%;
+  border: 1px solid #fff;
+  color: #f6f6f6;
+  font-size: 2.8rem;
+  left: 50%;
+  letter-spacing: .05em;
+  padding: .7em 0;
+  pointer-events: none;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -100%);
+  width: 85%;
 }
 
 .contens_box_text {
-	background: #fff;
-	border: 1px solid #f6f6f6;
-	color: #5a5a5a;
-	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-	font-size: 1.7rem;
-	left: 50%;
-	letter-spacing: 0.05em;
-	padding: 1em 0;
-	position: absolute;
-	text-align: center;
-	top: 50%;
-	transform: translate(-50%, 0%);
-	width: 75%;
+  background: #fff;
+  border: 1px solid #f6f6f6;
+  color: #5a5a5a;
+  font-family: '游明朝', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
+  font-size: 1.7rem;
+  left: 50%;
+  letter-spacing: .05em;
+  padding: 1em 0;
+  pointer-events: none;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, 0%);
+  width: 75%;
+}
+
+.contens_box {
+  pointer-events: fill;
 }
 
 .contens_box,
 .holdings_box {
-	position: relative;
+  position: relative;
 }
 
 .holdings_box_text {
-	color: #f6f6f6;
-	font-size: 2rem;
-	left: 50%;
+  color: #f6f6f6;
+  font-size: 2rem;
+  left: 50%;
 
-	line-height: 1.5;
-	position: absolute;
-	text-align: center;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	width: 100%;
+  line-height: 1.5;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
 }
 
 /* ナビげーション
 -------------------- */
 .nav_wrapper {
-	margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .nav_wrapper nav ul {
-	text-align: center;
+  text-align: center;
 }
 
 .nav_wrapper nav ul li {
-	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-	font-size: 2rem;
-	width: calc(100% / 6);
+  font-family: '游明朝', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
+  font-size: 2rem;
+  width: calc(100% / 6);
 }
 
 .nav_wrapper nav ul li a {
-	color: #5a5a5a;
+  color: #5a5a5a;
 }
 
 /* パンくず
 -------------------- */
 
 .topic-path {
-	margin-bottom: 30px;
-	padding-top: 40px;
+  margin-bottom: 30px;
+  padding-top: 40px;
 }
 
 .topic-path ul {
-	font-size: 2rem;
-	vertical-align: middle;
+  font-size: 2rem;
+  vertical-align: middle;
 }
 
 .topic-path ul li a {
-	color: #5a5a5a;
-	transition: all 0.2s;
+  color: #5a5a5a;
+  transition: all .2s;
 }
 
 .topic-path ul li a:hover {
-	color: #a20007;
+  color: #a20007;
 }
 
 .topic-path ul li {
-	display: inline-block;
+  display: inline-block;
 }
 
 .topic-path ul li::after {
-	content: "\03e";
-	font-size: 2.5rem;
+  content: '\03e';
+  font-size: 2.5rem;
 }
 
 .topic-path ul li:last-child {
-	margin-left: -0.3em;
+  margin-left: -.3em;
 }
 
 .topic-path ul li:last-child::after {
-	content: "";
+  content: '';
 }
 
 #topic-path {
-	margin-bottom: 30px;
-	padding-top: 40px;
+  margin-bottom: 30px;
+  padding-top: 40px;
 }
 
 #topic-path ul {
-	font-size: 2rem;
-	vertical-align: middle;
+  font-size: 2rem;
+  vertical-align: middle;
 }
 
 #topic-path ul li a {
-	color: #5a5a5a;
-	transition: all 0.2s;
+  color: #5a5a5a;
+  transition: all .2s;
 }
 
 #topic-path ul li a:hover {
-	color: #a20007;
+  color: #a20007;
 }
 
 #topic-path ul li {
-	display: inline-block;
+  display: inline-block;
 }
 
 #topic-path ul li::after {
-	content: "\03e";
-	font-size: 2.5rem;
+  content: '\03e';
+  font-size: 2.5rem;
 }
 
 #topic-path ul li:last-child {
 
-	/* margin-left: -0.3em; */
+  /* margin-left: -0.3em; */
 }
 
 #topic-path ul li:last-child::after {
-	content: "";
+  content: '';
 }
 
 /* container
@@ -705,10 +711,10 @@ blockquote cite {
 
 .container,
 #footer div.flex {
-	margin: 0 auto;
-	max-width: 1170px;
-	padding: 0 15px;
-	width: 100%;
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 0 15px;
+  width: 100%;
 }
 
 /* container
@@ -716,84 +722,84 @@ blockquote cite {
 
 .container,
 #footer div.flex {
-	margin: 0 auto;
-	max-width: 1170px;
-	padding: 0 15px;
-	width: 100%;
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 0 15px;
+  width: 100%;
 }
 
 /* header
 -------------------- */
 
 #header {
-	margin: 100px 0 50px 0;
-	position: relative;
-	width: 100%;
+  margin: 100px 0 50px 0;
+  position: relative;
+  width: 100%;
 }
 
 #header h1 {
-	left: 20px;
-	position: absolute;
-	top: 30px;
-	z-index: 1000;
+  left: 20px;
+  position: absolute;
+  top: 30px;
+  z-index: 1000;
 }
 
 .header_top {
-	background-color: rgba(255, 255, 255, 0.9);
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-	height: 100%;
-	height: 100px;
-	left: 0;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 999;
+  background-color: rgba(255, 255, 255, .9);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+  height: 100%;
+  height: 100px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 #header h1 {
-	left: 30px;
-	top: 20px;
+  left: 30px;
+  top: 20px;
 }
 
 #header h1 img {
-	width: 80%;
+  width: 80%;
 }
 
 /* footer
 -------------------- */
 
 #footer {
-	background: #000;
-	padding: 70px 0 0 0;
+  background: #000;
+  padding: 70px 0 0 0;
 }
 
 #footer dl {
-	line-height: 2;
+  line-height: 2;
 }
 
 #footer dl dt {
-	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-	letter-spacing: 0.1em;
+  font-family: '游明朝', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
+  letter-spacing: .1em;
 }
 
 #footer dl dt a,
 #footer dl dd a {
-	color: #fff;
+  color: #fff;
 }
 
 #footer dl dt a:hover,
 #footer dl dd a:hover {
-	color: #ba373d;
+  color: #ba373d;
 }
 
 #footer small {
-	color: #fff;
-	display: inline-block;
-	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-	font-size: 1.4rem;
-	letter-spacing: 0.1em;
-	line-height: 1.5;
-	padding: 30px 15px 50px 15px;
-	text-align: center;
-	width: 100%;
+  color: #fff;
+  display: inline-block;
+  font-family: '游明朝', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
+  font-size: 1.4rem;
+  letter-spacing: .1em;
+  line-height: 1.5;
+  padding: 30px 15px 50px 15px;
+  text-align: center;
+  width: 100%;
 }
