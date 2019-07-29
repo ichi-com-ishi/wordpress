@@ -1,0 +1,52 @@
+@charset 'utf-8';
+
+/* *****************
+TOP CSS
+******************** */
+
+.heading_h2 {
+  color: #555;
+  display: inline-block;
+  font-size: 4rem;
+  letter-spacing: .25em;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.heading_h2::before,
+.heading_h2::after {
+  border-bottom: 4px solid #f00;
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: translate(50%);
+  width: 50%;
+}
+
+#news {
+  margin-bottom: 50px;
+}
+
+#contens {
+  margin-bottom: 100px;
+}
+
+#holdings {
+  margin-bottom: 75px;
+}
+
+#header h2 {
+  color: #5a5a5a;
+  font-family: '游明朝', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
+  font-size: 6rem;
+  left: 50%;
+  letter-spacing: .1em;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  z-index: 998;
+}
