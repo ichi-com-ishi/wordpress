@@ -122,6 +122,20 @@
   }
 }
 
+@media screen and (max-width: 782px) {
+
+  /**
+   * アドミンバーの分、46px下げる。
+   */
+  .logged-in .header_top {
+    top: 46px;
+  }
+
+  .logged-in .zdo_drawer_menu .zdo_drawer_button {
+    top: 66px;
+  }
+}
+
 @media screen and (min-width: 768px) {
 
   .hidden {

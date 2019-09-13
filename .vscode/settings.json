@@ -1,15 +1,10 @@
 {
-	// インデントの設定
-	"editor.detectIndentation": false,
-	"editor.tabSize": 2, // 2に設定
-	"editor.insertSpaces": true, // タブに設定
-	// 改行コードの設定
-	"files.eol": "\n", // LFに設定
-	// 文字コードの設定
-	"files.autoGuessEncoding": false, // 自動判別オフ(文字化け対策)
-	"files.encoding": "utf8", // utf8を指定
-	// コーディング規約の設定
-	"phpcs.standard": "WordPress", // WordPressに設定
-	// フォーマッタの設定
-	"phpcbf.standard": "WordPress" // WordPressに設定
+  // インデントの設定
+  "editor.insertSpaces": true,
+  // true=スペース false=タブ
+  // 改行コードの設定
+  "files.eol": "\n", // LFに設定
+  // 文字コードの設定
+  "files.autoGuessEncoding": false, // 自動判別オフ(文字化け対策)
+  "files.encoding": "utf8", // utf8を指定
 }

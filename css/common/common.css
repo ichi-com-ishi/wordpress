@@ -756,6 +756,17 @@ blockquote cite {
   z-index: 999;
 }
 
+/**
+ * アドミンバーの分、32px下げる。
+ */
+.logged-in .header_top {
+  top: 32px;
+}
+
+.logged-in .zdo_drawer_menu .zdo_drawer_button {
+  top: 52px;
+}
+
 #header h1 {
   left: 30px;
   top: 20px;
