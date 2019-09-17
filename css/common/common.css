@@ -49,6 +49,13 @@ img {
 /* ワードプレス装飾
 ==================== */
 
+/* --- editor --- */
+
+/* p {
+  display: block;
+  margin: 1em 0;
+}
+
 strong {
   font-weight: bold;
 }
@@ -57,11 +64,51 @@ em {
   font-style: italic;
 }
 
+/* --- img --- */
+
+.aligncenter {
+  display: block;
+  margin: 0 auto;
+}
+
+.alignright {
+  float: right;
+}
+
+.alignleft {
+  float: left;
+}
+
+img[class*='wp-image-'],
+img[class*='attachment-'] {
+  height: auto;
+  max-width: 100%;
+}
+
+/* --- clearfix  ---*/
+
+.clearfix {
+  overflow: hidden;
+  zoom: 1;
+}
+
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
 blockquote {
   background: #efefef;
   box-sizing: border-box;
   color: #555;
+  display: block;
   font-style: italic;
+
+  /* -webkit-margin-after: 1em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-end: 40px;
+  -webkit-margin-start: 40px; */
   padding: 30px 15px 8px 15px;
   position: relative;
 }
@@ -756,7 +803,7 @@ blockquote cite {
   z-index: 999;
 }
 
-/**
+/*
  * アドミンバーの分、32px下げる。
  */
 .logged-in .header_top {

@@ -63,30 +63,53 @@ rose CSS
 
 #article p {
   color: #5a5a5a;
+  display: block;
   font-size: 2.4rem;
   letter-spacing: .05em;
   line-height: 1.75;
   margin-bottom: 10px;
 }
 
-/* #article div.left h2 {
-	color: #5a5a5a;
-	font-family: 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HG明朝E, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-	font-size: 4rem;
-	line-height: 2;
-	margin-bottom: 40px;
+#article strong {
+  font-weight: bold;
 }
 
-#article div.left p {
-	font-size: 2.4rem;
-	line-height: 2;
-	margin-bottom: 90px;
+#article em {
+  font-style: italic;
 }
 
-#article h3 {
-	font-family: 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HG明朝E, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-	font-size: 4rem;
-	margin-bottom: 50px;
+/* #article blockquote {
+  display: block;
+  -webkit-margin-after: 1em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-end: 40px;
+  -webkit-margin-start: 40px;
+}
+
+#article blockquote::before {
+  color: #cfcfcf;
+  content: '\f10d';
+  display: inline-block;
+  font-family: 'Font Awesome 5 Free';
+  font-size: 28px;
+  font-weight: 900;
+  left: 15px;
+  line-height: 1;
+  position: absolute;
+  top: 13px;
+}
+
+#article blockquote p {
+  line-height: 1.7;
+  margin: 10px 0;
+  padding: 0;
+}
+
+#article blockquote cite {
+  color: #888;
+  display: block;
+  font-size: .9em;
+  text-align: right;
 } */
 
 #article .article_text {
