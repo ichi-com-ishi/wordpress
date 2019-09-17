@@ -274,7 +274,7 @@ if ( ! function_exists( 'custom_breadcrumb' ) ) {
 							'</a>' .
 						 '</li>';
 				}
-      }
+			}
 
 			// ターム自身の表示
 			echo '<li>' .
